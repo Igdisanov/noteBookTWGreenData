@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2029BB70E8396DC4C640B348 /* Pods_noteBookTWGreenData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605BBE841C59B253B4853A01 /* Pods_noteBookTWGreenData.framework */; };
 		525F98C328DD773600ECE4CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F98C228DD773600ECE4CD /* AppDelegate.swift */; };
 		525F98C528DD773600ECE4CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F98C428DD773600ECE4CD /* SceneDelegate.swift */; };
-		525F98C728DD773600ECE4CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F98C628DD773600ECE4CD /* ViewController.swift */; };
 		525F98CA28DD773600ECE4CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525F98C828DD773600ECE4CD /* Main.storyboard */; };
 		525F98CD28DD773600ECE4CD /* noteBookTWGreenData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 525F98CB28DD773600ECE4CD /* noteBookTWGreenData.xcdatamodeld */; };
 		525F98CF28DD773900ECE4CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525F98CE28DD773900ECE4CD /* Assets.xcassets */; };
 		525F98D228DD773900ECE4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525F98D028DD773900ECE4CD /* LaunchScreen.storyboard */; };
+		5263311128E1C05700EB9E8E /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263311028E1C05700EB9E8E /* ListTableViewCell.swift */; };
+		5263311528E1D31F00EB9E8E /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263311428E1D31F00EB9E8E /* Results.swift */; };
+		5263311928E2C1A700EB9E8E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263311828E2C1A700EB9E8E /* NetworkService.swift */; };
+		5263311B28E41B7800EB9E8E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263311A28E41B7800EB9E8E /* NetworkError.swift */; };
+		5263311D28E41D7700EB9E8E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263311C28E41D7700EB9E8E /* User.swift */; };
+		52D32CD328E1801C0074EB03 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D32CD228E1801C0074EB03 /* ListTableViewController.swift */; };
+		52D32CD528E195750074EB03 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D32CD428E195750074EB03 /* UserInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2ADC03BC2A93E4EED23AE4FB /* Pods-noteBookTWGreenData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-noteBookTWGreenData.release.xcconfig"; path = "Target Support Files/Pods-noteBookTWGreenData/Pods-noteBookTWGreenData.release.xcconfig"; sourceTree = "<group>"; };
 		525F98BF28DD773600ECE4CD /* noteBookTWGreenData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noteBookTWGreenData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525F98C228DD773600ECE4CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		525F98C428DD773600ECE4CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		525F98C628DD773600ECE4CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		525F98C928DD773600ECE4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		525F98CC28DD773600ECE4CD /* noteBookTWGreenData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = noteBookTWGreenData.xcdatamodel; sourceTree = "<group>"; };
 		525F98CE28DD773900ECE4CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		525F98D128DD773900ECE4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525F98D328DD773900ECE4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5263311028E1C05700EB9E8E /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		5263311428E1D31F00EB9E8E /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		5263311828E2C1A700EB9E8E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5263311A28E41B7800EB9E8E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5263311C28E41D7700EB9E8E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		52D32CD228E1801C0074EB03 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		52D32CD428E195750074EB03 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		605BBE841C59B253B4853A01 /* Pods_noteBookTWGreenData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_noteBookTWGreenData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E004523EDD8BA87A6834BC /* Pods-noteBookTWGreenData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-noteBookTWGreenData.debug.xcconfig"; path = "Target Support Files/Pods-noteBookTWGreenData/Pods-noteBookTWGreenData.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2029BB70E8396DC4C640B348 /* Pods_noteBookTWGreenData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2284AEC2722E48152BBAAB24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				605BBE841C59B253B4853A01 /* Pods_noteBookTWGreenData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		525F98B628DD773600ECE4CD = {
 			isa = PBXGroup;
 			children = (
 				525F98C128DD773600ECE4CD /* noteBookTWGreenData */,
 				525F98C028DD773600ECE4CD /* Products */,
+				E46FA0C8F8A971072D80B837 /* Pods */,
+				2284AEC2722E48152BBAAB24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +85,95 @@
 		525F98C128DD773600ECE4CD /* noteBookTWGreenData */ = {
 			isa = PBXGroup;
 			children = (
-				525F98C228DD773600ECE4CD /* AppDelegate.swift */,
-				525F98C428DD773600ECE4CD /* SceneDelegate.swift */,
-				525F98C628DD773600ECE4CD /* ViewController.swift */,
-				525F98C828DD773600ECE4CD /* Main.storyboard */,
-				525F98CE28DD773900ECE4CD /* Assets.xcassets */,
-				525F98D028DD773900ECE4CD /* LaunchScreen.storyboard */,
-				525F98D328DD773900ECE4CD /* Info.plist */,
-				525F98CB28DD773600ECE4CD /* noteBookTWGreenData.xcdatamodeld */,
+				52D32CCC28E17C810074EB03 /* Model */,
+				52D32CCD28E17C8E0074EB03 /* View */,
+				52D32CCE28E17C950074EB03 /* Controller */,
+				5263311628E1D67600EB9E8E /* Network */,
+				52D32CD128E17D8E0074EB03 /* AppDelegate */,
+				52D32CD028E17D130074EB03 /* Resources */,
+				52D32CCF28E17D040074EB03 /* Supporting Files */,
 			);
 			path = noteBookTWGreenData;
+			sourceTree = "<group>";
+		};
+		5263310F28E1C05700EB9E8E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5263311028E1C05700EB9E8E /* ListTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5263311628E1D67600EB9E8E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5263311828E2C1A700EB9E8E /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		52D32CCC28E17C810074EB03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5263311C28E41D7700EB9E8E /* User.swift */,
+				5263311428E1D31F00EB9E8E /* Results.swift */,
+				5263311A28E41B7800EB9E8E /* NetworkError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52D32CCD28E17C8E0074EB03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5263310F28E1C05700EB9E8E /* Cell */,
+				525F98D028DD773900ECE4CD /* LaunchScreen.storyboard */,
+				525F98C828DD773600ECE4CD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52D32CCE28E17C950074EB03 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52D32CD228E1801C0074EB03 /* ListTableViewController.swift */,
+				52D32CD428E195750074EB03 /* UserInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52D32CCF28E17D040074EB03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				525F98CB28DD773600ECE4CD /* noteBookTWGreenData.xcdatamodeld */,
+				525F98D328DD773900ECE4CD /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52D32CD028E17D130074EB03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				525F98CE28DD773900ECE4CD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52D32CD128E17D8E0074EB03 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				525F98C228DD773600ECE4CD /* AppDelegate.swift */,
+				525F98C428DD773600ECE4CD /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E46FA0C8F8A971072D80B837 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7E004523EDD8BA87A6834BC /* Pods-noteBookTWGreenData.debug.xcconfig */,
+				2ADC03BC2A93E4EED23AE4FB /* Pods-noteBookTWGreenData.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 525F98D628DD773900ECE4CD /* Build configuration list for PBXNativeTarget "noteBookTWGreenData" */;
 			buildPhases = (
+				7EA53BF71CE548735CE5439F /* [CP] Check Pods Manifest.lock */,
 				525F98BB28DD773600ECE4CD /* Sources */,
 				525F98BC28DD773600ECE4CD /* Frameworks */,
 				525F98BD28DD773600ECE4CD /* Resources */,
+				B7881DD19F056001B8E1FF17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +244,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7EA53BF71CE548735CE5439F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-noteBookTWGreenData-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7881DD19F056001B8E1FF17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-noteBookTWGreenData/Pods-noteBookTWGreenData-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-noteBookTWGreenData/Pods-noteBookTWGreenData-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-noteBookTWGreenData/Pods-noteBookTWGreenData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		525F98BB28DD773600ECE4CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525F98C728DD773600ECE4CD /* ViewController.swift in Sources */,
 				525F98C328DD773600ECE4CD /* AppDelegate.swift in Sources */,
 				525F98CD28DD773600ECE4CD /* noteBookTWGreenData.xcdatamodeld in Sources */,
+				5263311928E2C1A700EB9E8E /* NetworkService.swift in Sources */,
+				52D32CD528E195750074EB03 /* UserInfoViewController.swift in Sources */,
 				525F98C528DD773600ECE4CD /* SceneDelegate.swift in Sources */,
+				52D32CD328E1801C0074EB03 /* ListTableViewController.swift in Sources */,
+				5263311B28E41B7800EB9E8E /* NetworkError.swift in Sources */,
+				5263311128E1C05700EB9E8E /* ListTableViewCell.swift in Sources */,
+				5263311D28E41D7700EB9E8E /* User.swift in Sources */,
+				5263311528E1D31F00EB9E8E /* Results.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +444,7 @@
 		};
 		525F98D728DD773900ECE4CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E004523EDD8BA87A6834BC /* Pods-noteBookTWGreenData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,7 +452,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QYBSPPC5D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = noteBookTWGreenData/Info.plist;
+				INFOPLIST_FILE = "noteBookTWGreenData/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -316,6 +473,7 @@
 		};
 		525F98D828DD773900ECE4CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ADC03BC2A93E4EED23AE4FB /* Pods-noteBookTWGreenData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,7 +481,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QYBSPPC5D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = noteBookTWGreenData/Info.plist;
+				INFOPLIST_FILE = "noteBookTWGreenData/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
